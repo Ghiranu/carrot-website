@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header img {
+  height: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #434a3e;
+  color: #ffffff;
+}
+
+.header li {
+  padding: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header a:hover {
+  opacity: 0.7;
+  background-color: #9f9f9f;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.first,
+.second {
+  list-style: none;
+  display: flex;
+}
+
+.first {
+  margin-right: 900px;
+}
+
+.second {
+  margin-right: 70px;
+}
+
+.second img {
+  margin-top: 20px;
+}
+
+.search img {
+  height: 26px;
+  margin-right: 400px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.search input {
+  width: 400px;
+  margin-left: 500px;
+  font-size: 2rem;
+}
+
+.search h1 {
+  width: 150px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.content {
+  background-color: #cbd8c1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carrot1 img {
+  height: 200px;
+  width: 100%;
+}
+
+.background {
+  background-color: #ffffff;
+  width: 330px;
+  padding: 10px;
+}
+
+.carrot1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.carrot1 button {
+  margin-top: 15px;
+  padding: 8px;
+  width: 100px;
+  background-color: #ec7a23;
+  border: 0;
+  color: white;
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+.carrot1 button:hover {
+  opacity: 0.7;
+  background-color: #d3d3d3;
+}
+
+.page span {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.page a {
+  text-decoration: none;
+  color: black;
+}
+
+.page {
+  background-color: #cbd8c1;
+  padding-top: 300px;
+  padding-bottom: 100px;
+  padding-left: 695px;
+}
+
+.bottom {
+  background-color: #707070;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.contact {
+  flex-direction: column;
+  margin-right: 20px;
+  line-height: 30px;
+}
+.motto {
+  width: 400px;
+  display: block;
+  line-height: 22px;
+}
+
+.motto a {
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+.bottom img {
+  position: relative;
+  left: 400px;
+  height: 100px;
+}

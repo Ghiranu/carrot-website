@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header img {
+  height: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #434a3e;
+  color: #ffffff;
+}
+
+.header li {
+  padding: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header a:hover {
+  opacity: 0.7;
+  background-color: #9f9f9f;
+}
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.first,
+.second {
+  list-style: none;
+  display: flex;
+}
+
+.first {
+  margin-right: 900px;
+}
+
+.second {
+  margin-right: 70px;
+}
+
+.second img {
+  margin-top: 20px;
+}
+
+.details {
+  display: flex;
+  padding: 70px;
+  background-color: #cbd8c1;
+}
+
+.details img {
+  height: 300px;
+}
+
+.yaya {
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+  width: 350px;
+}
+
+.yaya h1 {
+  margin-bottom: 20px;
+  color: #9f9f9f;
+}
+
+.yaya p {
+  color: #707070;
+}
+
+.options {
+  padding: 30px;
+  margin-left: 160px;
+}
+
+.options p {
+  color: #ec7a23;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.options button {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: #ec7a23;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.add img {
+  height: 15px;
+}
+
+.reviews {
+  display: flex;
+  padding: 70px;
+}
+
+.reviews img {
+  height: 100px;
+  border-radius: 50%;
+}
